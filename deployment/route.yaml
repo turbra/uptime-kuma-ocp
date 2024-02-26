@@ -1,0 +1,11 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  name: kuma
+spec:
+  host: kuma.apps.prox.turbra.lab # update accordingly
+  port:
+    targetPort: 3001
+  to:
+    kind: Service
+    name: uptime-kuma-service

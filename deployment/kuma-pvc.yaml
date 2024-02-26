@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: kuma-pvc
+  namespace: kuma
+spec:
+  storageClassName: nfs-client # update accordingly
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 1Gi # Change this value based on your needs.
