@@ -1,4 +1,4 @@
-# Kuma Deployment
+# Kuma Deployment on OpenShift
 ## An alternative approach from: 
 - [Uptime Kuma Helm Chart](https://github.com/k3rnelpan1c-dev/uptime-kuma-helm)
   - [Leveraging the same repackaged version of Uptime-Kuma](https://quay.io/repository/k3rnel-pan1c/uptime-kuma?tab=info)
